@@ -1,0 +1,26 @@
+www.reichelt.de Stückliste mit Bestellnummern
+
+1 USB BW		USB Buchse Typ B, gewinkelt
+2 D-SUB ST09EU		Sub-D Buchse 9polig, male, gewinkelt
+1 WSL 10G		Wannenstecker 10polig, gerade
+
+1 ATTINY2313DIP		ATMEL AVR ATtiny 2313-20PI
+1 GS20P			Präzisionssockel 20polig
+1 12,0000-HC49U-S	Quarz 12 MHz
+
+1 PFRA 010		rückstellende Sicherung
+2 ZF 3,6		Z-Diode 3,6V 0,5W
+
+2 METALL 68,0		Widerstand 68 Ohm 1/4 Watt
+1 METALL 1,50K		Widerstand 1,5 kOhm 1/4 Watt
+1 METALL 10,0K 		Widerstand 10 kOhm 1/4 Watt
+
+1 RAD 10/35 		Elko 10 µF	
+2 KERKO 22p		Kondensator 22 pF	
+2 X7R-2,5 100n		Kondensator 100 nF
+
+Reichelt Preise Stand 18.02.2007: 3,88 EUR
+
+Flächenbedarf: 0,25 dm2
+
+

@@ -1,0 +1,44 @@
+USB Joystickadapter
+-------------------
+
+Release 20150131
+
+Short: 
+
+Project to build a small board for interfacing two Commodore style 9 pin digital joystick inputs to a PC USB port as HID Joystick devices.
+
+Credits:
+
+Grigory Goronzy
+- initial breadboard realisation and initial firmware based on avrusb software
+
+Christian Starkjohann, OBJECTIVE DEVELOPMENT Software GmbH 
+http://www.obdev.at/products/vusb/index-en.html
+- v-usb (former avrusb) Atmel USB software driver 
+
+Andreas Paul
+http://www.hexagons.de/index.php/USB_Joystickadapter
+- printed circuit board design
+- porting firmware from avrusb to v-usb
+- firmware changes for matching free licence requirements (VID/PID, USB description)
+- firmware changes for ATtiny4313 compatibility
+- firmware compiled with avr-gcc 4.5.2
+
+Changelog:
+
+Release 20110608
+- first release Andreas Paul
+
+Release 20110825
+- makefile changes
+- Joystickport 1 und 2 gegeneinander getauscht
+- files for ATtiny2313 and ATtiny4313 supplied
+
+Release 20150131
+- release Philipp Lang
+- complete code rewrite
+- both joysticks can be used under Linux
+- the port mapping can be selected by holding the left joystick while plugging-in the adapter:
+  button1 + left: left joystick will be reported as joystick #1
+  button1 + right: right joystick will be reported as joystick #1
+  the mapping is stored in the eeprom
